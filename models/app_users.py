@@ -20,9 +20,6 @@ class AppUsers(db.Model):
         self.email = email
         self.password = password
         self.role = role
-
-    def get_new_user():
-        return AppUsers("", "", "", "", "")
     
 class AppUsersSchema(ma.Schema):
     class Meta:

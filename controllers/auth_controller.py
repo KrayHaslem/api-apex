@@ -19,7 +19,6 @@ def auth_token_add(req:request) -> Response:
         now_datetime = datetime.utcnow()
         expiration_datetime = datetime.utcnow() + timedelta(hours=12)
         user_data = db.session.query(AppUsers).filter(AppUsers.email == email).first()
-        print("user_data : ",user_data)
         if user_data:
             is_password_valid = check_password_hash(user_data.password, password)
             if is_password_valid == False:

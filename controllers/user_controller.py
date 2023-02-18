@@ -5,8 +5,8 @@ from models.app_users import AppUsers
 from lib.authenticate import authenticate
 
 @authenticate
-def user_add():
-   form = request.form
+def user_add(request):
+   form = request.get_json()
 
    fields = ["first_name", "last_name", "email", "password", "role"]
    req_fields = ["first_name", "email"]
@@ -14,7 +14,7 @@ def user_add():
    
    for field in fields:
       form_value = form.get(field)
-      if form_value in req_fields and form_value == " ":
+      if form_value in req_fields and form_value == "":
          return jsonify (f'{field} is required field'), 400
 
       values.append(form_value)

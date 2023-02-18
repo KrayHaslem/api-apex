@@ -43,6 +43,8 @@ def create_all():
     print("Default user found!")
 
 app.register_blueprint(routes.auth)
+app.register_blueprint(routes.app_users)
+app.register_blueprint(routes.contestants)
 
 if __name__ == '__main__':
    create_all()
