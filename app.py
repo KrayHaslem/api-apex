@@ -23,36 +23,48 @@ DATABASE_HOST = os.getenv('DATABASE_HOST')
 if not DATABASE_HOST:
   raise EnvironmentError('Unable to Find DATABASE_HOST Variable.')
 
-DATABASE_NAME = os.getenv('DATABASE_NAME')
-if not DATABASE_NAME:
+DATABASE_PORT = os.getenv('DATABASE_PORT')
+if not DATABASE_PORT:
   raise EnvironmentError('Unable to Find DATABASE_NAME Variable.')
 
-app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{DATABASE_HOST}/{DATABASE_NAME}'
+DATABASE_ID = os.getenv('DATABASE_ID')
+if not DATABASE_ID:
+  raise EnvironmentError('Unable to Find DATABASE_ID Variable.')
+
+DATABASE_USER = os.getenv('DATABASE_USER')
+if not DATABASE_USER:
+  raise EnvironmentError('Unable to Find DATABASE_USER Variable.')
+
+DATABASE_PASSWORD = os.getenv('DATABASE_PASSWORD')
+if not DATABASE_PASSWORD:
+  raise EnvironmentError('Unable to Find DATABASE_PASSWORD Variable.')
+
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgres://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_ID}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 init_db(app, db)
 
 def create_all():
   db.create_all()
-  print("Querying for default user...")
+  print('Querying for default user...')
    
   user_data = db.session.query(AppUsers).filter(AppUsers.email == 'k.haslem@icloud.com').first()
 
   if user_data == None:
-    print("Admin not found! Creating default user...")
+    print('Admin not found! Creating default user...')
     password = ''
     while password == '' or password is None:
         password = input(' Enter a password for Admin:')
 
-    hashed_password = bcrypt.generate_password_hash(password).decode("utf8")
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf8')
 
-    record = AppUsers('Kray', 'Haslem', "k.haslem@icloud.com", hashed_password, "super-admin")
+    record = AppUsers('Kray', 'Haslem', 'k.haslem@icloud.com', hashed_password, 'super-admin')
 
     db.session.add(record)
     db.session.commit()
 
   else:
-    print("Default user found!")
+    print('Default user found!')
 
 app.register_blueprint(routes.auth)
 app.register_blueprint(routes.app_users)
