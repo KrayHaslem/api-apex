@@ -52,11 +52,12 @@ def create_all():
 
   if user_data == None:
     print('Admin not found! Creating default user...')
-    password = ''
-    while password == '' or password is None:
-        password = input(' Enter a password for Admin:')
 
-    hashed_password = bcrypt.generate_password_hash(password).decode('utf8')
+    ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD')
+    if not ADMIN_PASSWORD:
+      raise EnvironmentError('Unable to Find ADMIN_PASSWORD Variable.')
+
+    hashed_password = bcrypt.generate_password_hash(ADMIN_PASSWORD).decode('utf8')
 
     record = AppUsers('Kray', 'Haslem', 'k.haslem@icloud.com', hashed_password, 'super-admin')
 
