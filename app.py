@@ -2,20 +2,32 @@ from flask import Flask, request, jsonify, Response, Blueprint
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.dialects.postgresql import UUID
 from flask_bcrypt import Bcrypt, generate_password_hash
+from flask_cors import CORS
+import os
+from dotenv import load_dotenv
 
 import routes
 from db import db, init_db
 from models.app_users import AppUsers
 
+load_dotenv()
 
 app = Flask(__name__)
 
 app.app_context().push()
 bcrypt = Bcrypt(app)
+CORS(app, resources={r'/*': {'origins': '*'}}, supports_credentials=True)
 
-database_host = "127.0.0.1:5432"
-database_name = "rise-thrive"
-app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{database_host}/{database_name}'
+
+DATABASE_HOST = os.getenv('DATABASE_HOST')
+if not DATABASE_HOST:
+  raise EnvironmentError('Unable to Find DATABASE_HOST Variable.')
+
+DATABASE_NAME = os.getenv('DATABASE_NAME')
+if not DATABASE_NAME:
+  raise EnvironmentError('Unable to Find DATABASE_NAME Variable.')
+
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{DATABASE_HOST}/{DATABASE_NAME}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 init_db(app, db)
@@ -45,6 +57,7 @@ def create_all():
 app.register_blueprint(routes.auth)
 app.register_blueprint(routes.app_users)
 app.register_blueprint(routes.contestants)
+app.register_blueprint(routes.votes)
 
 if __name__ == '__main__':
    create_all()

@@ -28,7 +28,6 @@ def contestant_get(req:Request, user_id) -> Response:
   except:
     return jsonify("Contestant not found"), 404
 
-@authenticate
 def contestants_get(req:Request) -> Response:
   all_contestants = db.session.query(Contestants).filter(Contestants.active == True).all()
   return jsonify(contestants_schema.dump(all_contestants)), 200
