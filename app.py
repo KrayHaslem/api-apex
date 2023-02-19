@@ -61,4 +61,4 @@ app.register_blueprint(routes.votes)
 
 if __name__ == '__main__':
    create_all()
-   app.run(debug=True)
+   app.run()
