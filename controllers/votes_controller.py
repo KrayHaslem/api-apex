@@ -36,7 +36,7 @@ def vote_add(req:Request) -> Response:
   service_sid = os.getenv('TWILIO_SERVICE_SID') 
 
   client = Client(account_sid, auth_token) 
-  verification_path = "https://www.google.com"
+  verification_path = f"http://risethrivepitch.com/pages/verification.html?voteId={vote_record.vote_id}"
   try:
     client.messages.create(messaging_service_sid=service_sid, body=f'{verification_path}', to=f'+{identity}') 
   except:
@@ -70,7 +70,7 @@ def vote_count(req:Request) -> Response:
     if vote.contestant.name != contestant:
       contestant = vote.contestant.name
       results[contestant] = 0
-      
+
     results[contestant] = results[contestant] + 1
 
   return jsonify(results)
