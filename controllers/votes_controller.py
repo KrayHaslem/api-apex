@@ -35,16 +35,20 @@ def vote_add(req:Request) -> Response:
   auth_token = os.getenv('TWILIO_AUTH_TOKEN') 
   service_sid = os.getenv('TWILIO_SERVICE_SID') 
 
+  db.session.add(vote_record)
+  db.session.commit()
+
+  inserted_record = db.session.query(Votes).filter(Votes.identity == identity).first()
+
   client = Client(account_sid, auth_token) 
-  verification_path = f"http://risethrivepitch.com/pages/verification.html?voteId={vote_record.vote_id}"
+  verification_path = f"http://risethrivepitch.com/pages/verification.html?voteId={inserted_record.vote_id}"
   try:
     client.messages.create(messaging_service_sid=service_sid, body=f'{verification_path}', to=f'+{identity}') 
   except:
     return jsonify({"message": "Verification SMS failure."}), 400
   
   if vote_record.contestant_id != "":
-    db.session.add(vote_record)
-    db.session.commit()
+    
 
     return jsonify({"message":"Vote submitted."}), 200
   else:
@@ -77,6 +81,15 @@ def vote_count(req:Request) -> Response:
     results[contestant] = results[contestant] + 1
 
   return jsonify(results)
+
+@authenticate
+def delete_vote(req:Request, vote_id) -> Response:
+  vote = db.session.query(Votes).filter(Votes.vote_id == vote_id).first()
+
+  db.session.delete(vote)
+  db.session.commit()
+
+  return jsonify("Vote Deleted"), 200
 
 
 

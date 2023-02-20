@@ -18,3 +18,7 @@ def verify_vote(vote_id) -> Response:
 @votes.route("/votes/count", methods=["GET"])
 def vote_count() -> Response:
     return controllers.vote_count(request)
+
+@votes.route("/votes/delete/<vote_id>", methods=["DELETE"])
+def vote_delete(vote_id) -> Response:
+    return controllers.delete_vote(request, vote_id)
