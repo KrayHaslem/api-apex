@@ -42,10 +42,13 @@ def vote_add(req:Request) -> Response:
   except:
     return jsonify({"message": "Verification SMS failure."}), 400
   
-  db.session.add(vote_record)
-  db.session.commit()
+  if vote_record.contestant_id != "":
+    db.session.add(vote_record)
+    db.session.commit()
 
-  return jsonify({"message":"Vote submitted."}), 200
+    return jsonify({"message":"Vote submitted."}), 200
+  else:
+    return jsonify({"message":"Selection not recognized"}), 400
 
 @authenticate
 def get_votes(req:Request) -> Response:
