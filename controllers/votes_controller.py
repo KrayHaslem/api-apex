@@ -3,6 +3,7 @@ from db import db
 import os
 from dotenv import load_dotenv
 from twilio.rest import Client 
+from uuid import UUID
 
 from models.votes import Votes, vote_schema, votes_schema
 from lib.authenticate import authenticate
@@ -61,6 +62,11 @@ def get_votes(req:Request) -> Response:
   return jsonify(votes_schema.dump(all_votes)), 200
 
 def verify_vote(req:Request, vote_id) -> Response:
+  try:
+    UUID(vote_id, version=4)
+  except:
+    return jsonify("Invalid ID"), 400
+  
   vote_record = db.session.query(Votes).filter(Votes.vote_id == vote_id).first()
   vote_record.verified = True
   
