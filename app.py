@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 app.app_context().push()
 bcrypt = Bcrypt(app)
-CORS(app, resources={r'/*': {'origins': '*'}}, supports_credentials=True)
+CORS(app)
 
 
 DATABASE_HOST = os.getenv('DATABASE_HOST')
