@@ -1,40 +1,38 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy, Model
-from inspect import isclass
 from importlib import import_module
-from sys import modules
-from os import walk
-from os.path import abspath, basename, dirname, join
+from pathlib import Path
+from typing import List, Type, Any
 
 db = SQLAlchemy()
 
-PROJ_DIR = abspath(join(dirname(abspath(__file__)), '../..'))
-APP_MODULE = basename(PROJ_DIR)
+APP_MODULE = Path(__file__).resolve().parent.parent.name
 
-def get_modules(module):
-   file_dir = abspath(join(PROJ_DIR, module))
-   for root, files in walk(file_dir):
-      mod_path = '{}{}'.format(APP_MODULE, root.split(PROJ_DIR)[1]).replace('/', '.')
-      for filename in files:
-         if filename.endsWith('.py') and not filename.startswith('__init__'):
-            yield '.'.join([mod_path, filename[0:-3]])
+def get_modules(module: str) -> List[str]:
+    module_dir = Path(__file__).resolve().parent.parent / module
+    return [
+        str(p.relative_to(module_dir)).replace('/', '.').removesuffix('.py')
+        for p in module_dir.glob('**/*.py')
+        if p.name != '__init__.py'
+    ]
 
-def dynamic_loader(module, compare):
+def dynamic_loader(module: str, compare: callable) -> List[Type[Model]]:
     items = []
     for mod in get_modules(module):
-        module = import_module(mod)
+        module = import_module(f'{APP_MODULE}.{module}.{mod}')
         if hasattr(module, '__all__'):
             objs = [getattr(module, obj) for obj in module.__all__]
-            items += [o for o in objs if compare(o) and o not in items]
+            items += [obj for obj in objs if compare(obj) and obj not in items]
     return items
 
-def is_model(item):
-    return isclass(item) and issubclass(item, Model) and not item.__ignore__()
+def is_model(item: Any) -> bool:
+    return (
+        isinstance(item, type) and issubclass(item, Model)
+        and not getattr(item, '__ignore__', False)
+    )
 
-def init_db(app=None, db=None):
-   if isinstance(app, Flask) and isinstance(db, SQLAlchemy):
-      for model in dynamic_loader('models', is_model):
-        setattr(modules[__name__], model.__name__, model)
-      db.init_app(app)
-   else:
-      raise ValueError('Cannot Initialize Database Without db and app Objects.')
+def init_db(app: Flask, db: SQLAlchemy) -> None:
+    with app.app_context():
+        for model in dynamic_loader('models', is_model):
+            setattr(__name__, model.__name__, model)
+        db.init_app(app)
