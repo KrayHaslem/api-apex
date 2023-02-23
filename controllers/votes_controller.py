@@ -42,7 +42,7 @@ def vote_add(req:Request) -> Response:
   inserted_record = db.session.query(Votes).filter(Votes.identity == identity).first()
 
   client = Client(account_sid, auth_token) 
-  verification_path = f"http://risethrivepitch.com/pages/verification.html?voteId={inserted_record.vote_id}"
+  verification_path = f"https://risethrivepitch.com/pages/verification.html?voteId={inserted_record.vote_id}"
   try:
     client.messages.create(messaging_service_sid=service_sid, body=f'{verification_path}', to=f'+{identity}') 
   except:
