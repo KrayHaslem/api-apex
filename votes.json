@@ -1,0 +1,1199 @@
+[
+  {
+    "contestant": {
+      "name": "Rebecca Wilkey/Mad Moth Fitness"
+    },
+    "contestant_id": "7675936a-9ba3-4b27-8e60-50e6fa22a72d",
+    "identity": "14352195535",
+    "verified": true,
+    "vote_id": "6e19b1a5-500e-4c0b-b80a-ac365bd1d9ab"
+  },
+  {
+    "contestant": {
+      "name": "Rebecca Wilkey/Mad Moth Fitness"
+    },
+    "contestant_id": "7675936a-9ba3-4b27-8e60-50e6fa22a72d",
+    "identity": "14352601714",
+    "verified": true,
+    "vote_id": "81e72f50-5d2f-430d-a93d-1371b1d71163"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14352191885",
+    "verified": true,
+    "vote_id": "34602268-9c8d-4cf0-8c8e-3b4acdc2165a"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14357902001",
+    "verified": true,
+    "vote_id": "5e23c8a4-ece3-4580-a6d8-9ec49c4fe593"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "12082194778",
+    "verified": false,
+    "vote_id": "539ac0ce-a9c3-4e6a-aa03-769bf17f2391"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14352194547",
+    "verified": true,
+    "vote_id": "988d00c3-fa67-4b8e-b4a6-73e1ab137b5c"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "18018363736",
+    "verified": true,
+    "vote_id": "6b36c589-a924-4b56-9caf-dad4a792ed3a"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "13853125600",
+    "verified": true,
+    "vote_id": "a12a7e43-b0ca-4f18-aa45-ee9cd982eccf"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358302144",
+    "verified": true,
+    "vote_id": "b43ba133-ca47-43fd-a743-4882fd0dd263"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "18017879550",
+    "verified": true,
+    "vote_id": "d19bbc1d-fd51-48a2-a289-585dc1b8e11c"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14356218288",
+    "verified": true,
+    "vote_id": "9cd6a940-18bd-4545-9622-e7f94729a60b"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358305436",
+    "verified": true,
+    "vote_id": "9bf24124-485c-414b-9340-30b28c063a13"
+  },
+  {
+    "contestant": {
+      "name": "Whitney Jackson/Memory Vault"
+    },
+    "contestant_id": "42e39ead-8654-42e7-b21c-40205fedb244",
+    "identity": "14358280357",
+    "verified": true,
+    "vote_id": "9e305549-d598-4196-90b1-2521adaad53e"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14356218854",
+    "verified": true,
+    "vote_id": "6997a508-4737-49e9-8a4c-a49edc0a7caf"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358412334",
+    "verified": true,
+    "vote_id": "515a594a-8b64-440e-9dc3-04241671b9f6"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14356314224",
+    "verified": true,
+    "vote_id": "f27da6f9-8a78-470a-9353-ade28f3c4e8a"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14356211070",
+    "verified": true,
+    "vote_id": "1e44648d-20a5-4ae8-9bc2-d4ecec2b4ba9"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "12086500437",
+    "verified": false,
+    "vote_id": "62aeb968-97cc-46cb-af74-c6dfc72b8ee7"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14356211445",
+    "verified": false,
+    "vote_id": "38b03bce-6e86-47b2-aecf-a1fa52644701"
+  },
+  {
+    "contestant": {
+      "name": "Rebecca Wilkey/Mad Moth Fitness"
+    },
+    "contestant_id": "7675936a-9ba3-4b27-8e60-50e6fa22a72d",
+    "identity": "14352192869",
+    "verified": true,
+    "vote_id": "f2fb7137-1833-4fa3-a6c9-f7dc1eb926f7"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14357908676",
+    "verified": true,
+    "vote_id": "e3ecc5b0-29d5-4076-93aa-b5271486dd1e"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14357909021",
+    "verified": false,
+    "vote_id": "3461d4e2-2339-438a-b37e-cfff65b39623"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14357909020",
+    "verified": true,
+    "vote_id": "2a2af196-c9b5-49e4-912e-b8c6b224b5da"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "12086509698",
+    "verified": true,
+    "vote_id": "afb80d84-6fcd-4cb4-aeb2-d940de84618a"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14355499430",
+    "verified": true,
+    "vote_id": "103815a2-5bf2-4429-a748-ff42ece456fb"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "12084319491",
+    "verified": false,
+    "vote_id": "4e886a33-3cf8-4ed2-8ead-556e2d9439e5"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14358282018",
+    "verified": false,
+    "vote_id": "6f260174-09ef-46ec-8348-ff913a7697af"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "13034727064",
+    "verified": true,
+    "vote_id": "c2b0cfe8-52a1-4330-be20-04c42f61a407"
+  },
+  {
+    "contestant": {
+      "name": "Rebecca Wilkey/Mad Moth Fitness"
+    },
+    "contestant_id": "7675936a-9ba3-4b27-8e60-50e6fa22a72d",
+    "identity": "18014287297",
+    "verified": true,
+    "vote_id": "62f641c8-4f46-488e-a7e7-1920f4425f71"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14358288853",
+    "verified": true,
+    "vote_id": "90f54c6d-483c-4529-8796-45cdd4405f92"
+  },
+  {
+    "contestant": {
+      "name": "Rebecca Wilkey/Mad Moth Fitness"
+    },
+    "contestant_id": "7675936a-9ba3-4b27-8e60-50e6fa22a72d",
+    "identity": "14352196999",
+    "verified": false,
+    "vote_id": "372400e1-0cc2-4342-8f7f-2abb78d3601e"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "12086478082",
+    "verified": false,
+    "vote_id": "f193946e-326b-41ba-a0c3-9686da13e451"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "12084211473",
+    "verified": false,
+    "vote_id": "7894734e-58de-44fa-95a7-258cef32e877"
+  },
+  {
+    "contestant": {
+      "name": "Rebecca Wilkey/Mad Moth Fitness"
+    },
+    "contestant_id": "7675936a-9ba3-4b27-8e60-50e6fa22a72d",
+    "identity": "14356212795",
+    "verified": true,
+    "vote_id": "b8500266-9bab-4394-a91d-40c8a94dc2b0"
+  },
+  {
+    "contestant": {
+      "name": "Tara Burman/Glam Factor"
+    },
+    "contestant_id": "87562a98-bc75-4d91-8282-fea517b43b15",
+    "identity": "14357906604",
+    "verified": true,
+    "vote_id": "5998533e-05a7-4f75-b12c-0c2f784bde0c"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "14358281250",
+    "verified": true,
+    "vote_id": "b8a935e0-7f3f-44f2-a9d8-97749cb2fe4a"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "12082839901",
+    "verified": true,
+    "vote_id": "ccc08140-2be2-4e12-9190-8201f041d3be"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14356509480",
+    "verified": true,
+    "vote_id": "822a7c82-8b96-48e0-8389-5dfd15dbc035"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14357902461",
+    "verified": false,
+    "vote_id": "84d48666-6615-42d4-ab49-9bf4a329d4af"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14358286538",
+    "verified": true,
+    "vote_id": "6db140ec-c793-473f-acfd-a282784213d6"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14357901750",
+    "verified": true,
+    "vote_id": "2422ca74-3d30-4a84-879e-9fe353409552"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14356212226",
+    "verified": true,
+    "vote_id": "72e69cb6-e6b5-4134-adec-1a4aa30d8167"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14352199372",
+    "verified": true,
+    "vote_id": "3250fedb-7998-4058-8e35-0a812bfdcc8f"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14358284394",
+    "verified": true,
+    "vote_id": "7d4b6b18-abdc-4961-a5a7-99ad21f9ed9d"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14356500786",
+    "verified": true,
+    "vote_id": "8775f5f3-b3e5-45d8-bdd9-ff0f949c5bed"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14357902291",
+    "verified": true,
+    "vote_id": "ba60c9fe-e6ba-4b25-97de-6d3aaa48ed09"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14357245516",
+    "verified": true,
+    "vote_id": "952b9d56-34c4-4ba7-afe4-65f0044edfb2"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "14356212258",
+    "verified": true,
+    "vote_id": "3cd71852-056d-4a14-a44d-33d006ac887c"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "14357909897",
+    "verified": true,
+    "vote_id": "b8d0517e-1def-4ec1-934e-b4ad2e8b1c90"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "14352194079",
+    "verified": true,
+    "vote_id": "d0476765-098f-4436-b779-9a8fa7cf8f1f"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14357904257",
+    "verified": false,
+    "vote_id": "b88bb21f-47d8-4177-a0a9-f4fb52dfaf8d"
+  },
+  {
+    "contestant": {
+      "name": "Robyn McConkie/Vernal Indoor Playgroup"
+    },
+    "contestant_id": "56cc1204-c791-4266-8262-0d8c5853bede",
+    "identity": "14357907877",
+    "verified": true,
+    "vote_id": "554f2f49-af6d-442f-9a7a-3da1027637bb"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14357902711",
+    "verified": true,
+    "vote_id": "eb65eb47-4067-4c13-ba4b-b34a2314bc5d"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14055930297",
+    "verified": true,
+    "vote_id": "ff7dc441-d5ce-45c4-bf42-c7ae6554e29e"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14352013066",
+    "verified": true,
+    "vote_id": "71146d85-5e1a-41cc-bff1-05130cfe3b37"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358284946",
+    "verified": true,
+    "vote_id": "4dfd3027-d0b8-4d05-b912-91f1b49afc64"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "18015889998",
+    "verified": true,
+    "vote_id": "806a9eb9-1166-44b1-ac95-b12ece06feb6"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358232422",
+    "verified": true,
+    "vote_id": "557c74ef-e2c0-4c9a-9fd6-33abbe7cd985"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "15712656805",
+    "verified": true,
+    "vote_id": "feba2558-0123-4a0a-959a-2a219d6f2799"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "18016733163",
+    "verified": true,
+    "vote_id": "dea9b064-28ae-4945-848e-f755eecda1ea"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14356212284",
+    "verified": true,
+    "vote_id": "d968dbee-4b1d-427d-987c-a4448d91a326"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14356096151",
+    "verified": true,
+    "vote_id": "a259c90a-d8ba-41b5-908e-9df39833c9b2"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14358282673",
+    "verified": true,
+    "vote_id": "d031e45a-b560-4e66-a1d9-292c6b57dfb0"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14357905773",
+    "verified": true,
+    "vote_id": "4616d3ce-f756-43d1-ab61-cae86ebfd37d"
+  },
+  {
+    "contestant": {
+      "name": "Whitney Jackson/Memory Vault"
+    },
+    "contestant_id": "42e39ead-8654-42e7-b21c-40205fedb244",
+    "identity": "14358236559",
+    "verified": true,
+    "vote_id": "e3cf6cce-e91a-402d-83b5-ec02303920f3"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14356213363",
+    "verified": true,
+    "vote_id": "1673009c-5081-4a93-a658-a7650d34d812"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "17016901318",
+    "verified": true,
+    "vote_id": "3958d3a2-ee7a-4409-9abf-eadee205e5e6"
+  },
+  {
+    "contestant": {
+      "name": "Whitney Jackson/Memory Vault"
+    },
+    "contestant_id": "42e39ead-8654-42e7-b21c-40205fedb244",
+    "identity": "18065085505",
+    "verified": false,
+    "vote_id": "89d58659-7a08-4fc4-986f-07411fd46d21"
+  },
+  {
+    "contestant": {
+      "name": "Whitney Jackson/Memory Vault"
+    },
+    "contestant_id": "42e39ead-8654-42e7-b21c-40205fedb244",
+    "identity": "14356212388",
+    "verified": true,
+    "vote_id": "acb748f3-da85-43da-bc94-ac23689f43a8"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "14352136640",
+    "verified": true,
+    "vote_id": "179d03a0-d7da-4abd-a1c6-752355ac5ed5"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "14358284454",
+    "verified": true,
+    "vote_id": "a3cf1316-b899-4d6a-ac67-b22030c6cbe7"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "18018676386",
+    "verified": true,
+    "vote_id": "2abd4084-b179-480e-8695-d2c78618ca8a"
+  },
+  {
+    "contestant": {
+      "name": "Rebecca Wilkey/Mad Moth Fitness"
+    },
+    "contestant_id": "7675936a-9ba3-4b27-8e60-50e6fa22a72d",
+    "identity": "18018106426",
+    "verified": true,
+    "vote_id": "d75d7472-d533-42a7-b503-a86dbdebf417"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "18014044268",
+    "verified": true,
+    "vote_id": "b1270abb-209d-4b49-ad56-124ea3cc1513"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "18017915138",
+    "verified": true,
+    "vote_id": "4e90bb7b-a5ea-422a-9a97-f9a54bf73d7a"
+  },
+  {
+    "contestant": {
+      "name": "Tara Burman/Glam Factor"
+    },
+    "contestant_id": "87562a98-bc75-4d91-8282-fea517b43b15",
+    "identity": "14356211482",
+    "verified": true,
+    "vote_id": "e7066723-e379-48d9-89d2-aaba13b847e2"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14352328358",
+    "verified": true,
+    "vote_id": "6042d714-c158-4f86-a329-181567eb111f"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14358232421",
+    "verified": true,
+    "vote_id": "5c35d542-7da1-4d86-af97-5e9ad81e4195"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "17037853509",
+    "verified": false,
+    "vote_id": "a76fb18b-4fcf-4827-8744-82a4e3cd8a1e"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358282904",
+    "verified": false,
+    "vote_id": "2e221f7b-3079-4984-a6f0-9f1098ed3a89"
+  },
+  {
+    "contestant": {
+      "name": "Vance Norton/Vernal Adventure Center"
+    },
+    "contestant_id": "33f98964-5f96-4ca2-8dbb-ecfc3d15bad4",
+    "identity": "14355499499",
+    "verified": true,
+    "vote_id": "319c61df-b0d4-4aca-ae29-0f878a08e648"
+  },
+  {
+    "contestant": {
+      "name": "Tara Burman/Glam Factor"
+    },
+    "contestant_id": "87562a98-bc75-4d91-8282-fea517b43b15",
+    "identity": "14358288006",
+    "verified": true,
+    "vote_id": "51282c18-3161-496a-ae66-f3f446297daa"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "17207786377",
+    "verified": true,
+    "vote_id": "19aa03b3-c264-44ae-9847-55680e6580ee"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14355497673",
+    "verified": true,
+    "vote_id": "2fc1d0d4-5480-4606-b7f3-dd5e954ddab9"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "13852088259",
+    "verified": true,
+    "vote_id": "92dcae3d-9cd5-4c7f-9b76-3aec23278696"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14352195322",
+    "verified": true,
+    "vote_id": "d31a9de1-70f4-4d70-858e-a11f26062649"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14356213175",
+    "verified": true,
+    "vote_id": "96aa8e5d-42c2-4b18-9042-2bd5e9bce2a0"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14358285222",
+    "verified": true,
+    "vote_id": "20015ce8-3be2-4302-9de7-7fac3f4fcf44"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14357903717",
+    "verified": true,
+    "vote_id": "7abb171d-b453-45fe-b661-070c297bb759"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "18018882815",
+    "verified": true,
+    "vote_id": "c85ce99f-073e-415a-af63-c69a35a9c36d"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14358288292",
+    "verified": true,
+    "vote_id": "61255566-d09c-4561-ae1e-3524fe92d313"
+  },
+  {
+    "contestant": {
+      "name": "Tara Burman/Glam Factor"
+    },
+    "contestant_id": "87562a98-bc75-4d91-8282-fea517b43b15",
+    "identity": "14352191964",
+    "verified": true,
+    "vote_id": "30abf021-7600-482a-b1b6-acdeb8078198"
+  },
+  {
+    "contestant": {
+      "name": "Tara Burman/Glam Factor"
+    },
+    "contestant_id": "87562a98-bc75-4d91-8282-fea517b43b15",
+    "identity": "14352190568",
+    "verified": true,
+    "vote_id": "0ef26f7c-8207-4882-b7cd-85b2942d4a94"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14357907536",
+    "verified": false,
+    "vote_id": "a53e228d-e737-4fa0-8ecf-559ffafcb9e6"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358284427",
+    "verified": true,
+    "vote_id": "a74a9cec-7321-4178-8f93-2f65d56de26b"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358282329",
+    "verified": true,
+    "vote_id": "ff72cfef-fdc3-41a3-9d58-159707d06acd"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "17205454065",
+    "verified": true,
+    "vote_id": "07608840-ee5e-4a7b-93e5-3eccddd138d5"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14356226571",
+    "verified": true,
+    "vote_id": "8fafadcb-6473-41d0-b18c-2667ba72bac0"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "14357903043",
+    "verified": true,
+    "vote_id": "4fd4ed76-5281-4aa5-9a25-f08d117dd3d6"
+  },
+  {
+    "contestant": {
+      "name": "Megan Bell/NecessiTee"
+    },
+    "contestant_id": "83d8e351-173d-41b4-9fa5-161003aca267",
+    "identity": "14358280965",
+    "verified": true,
+    "vote_id": "54ae093f-ed04-46fa-af9b-f5b529887c87"
+  },
+  {
+    "contestant": {
+      "name": "Tara Burman/Glam Factor"
+    },
+    "contestant_id": "87562a98-bc75-4d91-8282-fea517b43b15",
+    "identity": "14355499244",
+    "verified": false,
+    "vote_id": "b3cb2314-f2db-496a-b2c9-739c050377b6"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358232420",
+    "verified": false,
+    "vote_id": "e19a0a41-6d26-4431-abb6-17a3007d95d9"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14352191172",
+    "verified": true,
+    "vote_id": "4f8bcb67-9b36-4f53-a636-341dfea98ee1"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "15055921499",
+    "verified": true,
+    "vote_id": "50841fdd-d17c-48f9-960e-ee223f9b596e"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14357330168",
+    "verified": true,
+    "vote_id": "5e0f06b6-35f5-4c80-bd51-18ec13cac62d"
+  },
+  {
+    "contestant": {
+      "name": "Vance Norton/Vernal Adventure Center"
+    },
+    "contestant_id": "33f98964-5f96-4ca2-8dbb-ecfc3d15bad4",
+    "identity": "14358236545",
+    "verified": true,
+    "vote_id": "88a59071-a038-4ea9-b08a-6ed8e0725c45"
+  },
+  {
+    "contestant": {
+      "name": "Vance Norton/Vernal Adventure Center"
+    },
+    "contestant_id": "33f98964-5f96-4ca2-8dbb-ecfc3d15bad4",
+    "identity": "18014191690",
+    "verified": true,
+    "vote_id": "154f635e-342b-4a8b-85d2-2bc6b7ab16c6"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "14352790276",
+    "verified": true,
+    "vote_id": "e3d76d54-34a6-48b7-8939-45e1cf1a14ef"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "13852286134",
+    "verified": true,
+    "vote_id": "70b2817d-f3b0-45e4-93e5-5d895d6602bb"
+  },
+  {
+    "contestant": {
+      "name": "Robyn McConkie/Vernal Indoor Playgroup"
+    },
+    "contestant_id": "56cc1204-c791-4266-8262-0d8c5853bede",
+    "identity": "14357907788",
+    "verified": true,
+    "vote_id": "daae93aa-91d0-46bb-97d3-b5a3ad81a1f9"
+  },
+  {
+    "contestant": {
+      "name": "Whitney Jackson/Memory Vault"
+    },
+    "contestant_id": "42e39ead-8654-42e7-b21c-40205fedb244",
+    "identity": "14357908735",
+    "verified": true,
+    "vote_id": "7245e11d-5a68-4875-ab99-1de7ac29e6b6"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "14356594730",
+    "verified": true,
+    "vote_id": "5507380a-def5-4c8c-b4e4-2238aaa1737a"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14357905198",
+    "verified": true,
+    "vote_id": "6f1a2f30-548c-4d2d-a588-7967c815abce"
+  },
+  {
+    "contestant": {
+      "name": "Robyn McConkie/Vernal Indoor Playgroup"
+    },
+    "contestant_id": "56cc1204-c791-4266-8262-0d8c5853bede",
+    "identity": "14357908787",
+    "verified": true,
+    "vote_id": "61bb3ec0-1214-43b8-ab9c-f4520258f5a4"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14356213212",
+    "verified": false,
+    "vote_id": "e7063762-a400-43db-89cd-84f57d3471fc"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14357901972",
+    "verified": true,
+    "vote_id": "70bc5913-f077-4117-9972-70fbc464745c"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14356958067",
+    "verified": true,
+    "vote_id": "069691bb-b1fc-4b01-b467-32c48049f398"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358282152",
+    "verified": true,
+    "vote_id": "83673686-b90c-4805-8b91-620a78025614"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358284803",
+    "verified": true,
+    "vote_id": "1cf007c1-5ace-415d-81b0-b5c677c71bc3"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "14358281036",
+    "verified": false,
+    "vote_id": "6b406eb4-5ea7-45aa-94c1-7552b7278890"
+  },
+  {
+    "contestant": {
+      "name": "Rebecca Wilkey/Mad Moth Fitness"
+    },
+    "contestant_id": "7675936a-9ba3-4b27-8e60-50e6fa22a72d",
+    "identity": "18016189639",
+    "verified": true,
+    "vote_id": "5d755fb4-e11f-47de-a7d0-8c23eb27df7f"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14358284833",
+    "verified": false,
+    "vote_id": "4d945d3a-83ae-4b04-b69b-fbcb1a81ada3"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14358286531",
+    "verified": true,
+    "vote_id": "3be78fa6-6e48-4b2c-9afc-19e3bc372de2"
+  },
+  {
+    "contestant": {
+      "name": "Robyn McConkie/Vernal Indoor Playgroup"
+    },
+    "contestant_id": "56cc1204-c791-4266-8262-0d8c5853bede",
+    "identity": "14357907766",
+    "verified": true,
+    "vote_id": "e24ede5c-ee1a-4967-9445-eacd97a7dc27"
+  },
+  {
+    "contestant": {
+      "name": "Boyd Chatwin/Krispy Klean"
+    },
+    "contestant_id": "f963bac7-1d20-4963-ba50-4baee6c6df32",
+    "identity": "14358282698",
+    "verified": true,
+    "vote_id": "ac28a29c-eb81-4038-bc8e-954cbce550ce"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "14359940721",
+    "verified": false,
+    "vote_id": "fbeeea1f-59bb-4dee-879e-eae6dbd7d0a8"
+  },
+  {
+    "contestant": {
+      "name": "Rebecca Wilkey/Mad Moth Fitness"
+    },
+    "contestant_id": "7675936a-9ba3-4b27-8e60-50e6fa22a72d",
+    "identity": "18018820225",
+    "verified": true,
+    "vote_id": "5c0e0c26-4da1-4046-892c-c201148eb26e"
+  },
+  {
+    "contestant": {
+      "name": "Vance Norton/Vernal Adventure Center"
+    },
+    "contestant_id": "33f98964-5f96-4ca2-8dbb-ecfc3d15bad4",
+    "identity": "14358284943",
+    "verified": true,
+    "vote_id": "942901dd-1022-447b-922d-0bb75a427c1d"
+  },
+  {
+    "contestant": {
+      "name": "Danielle Campbell/The Pattern Bell"
+    },
+    "contestant_id": "4160309a-704b-4ad9-8b14-b693800b709e",
+    "identity": "14355122652",
+    "verified": true,
+    "vote_id": "7cd10d7c-01e5-4925-8399-e1f33b7f64bd"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "18013107257",
+    "verified": true,
+    "vote_id": "2422e1c4-ce30-4efb-b5c6-aaf2914260b9"
+  },
+  {
+    "contestant": {
+      "name": "Ellie Christopherson/Ellie’s Creation Co."
+    },
+    "contestant_id": "c179881f-e900-45c9-8e0a-a0b7d3448d42",
+    "identity": "12084315524",
+    "verified": true,
+    "vote_id": "3fb0ca95-da8a-4626-acc1-91adffafe655"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "14358281002",
+    "verified": false,
+    "vote_id": "ac8fbb59-63f4-4559-ab9e-9da8f5cd6a23"
+  },
+  {
+    "contestant": {
+      "name": "Johnathan Clement/Bayou BBQ"
+    },
+    "contestant_id": "eb119afb-c907-45f6-a401-8d4786455e05",
+    "identity": "18015581316",
+    "verified": true,
+    "vote_id": "80d1a3e5-d86b-4a5a-9b2a-d29947dfea4c"
+  }
+]
