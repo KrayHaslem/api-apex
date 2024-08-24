@@ -16,62 +16,62 @@ app = Flask(__name__)
 
 app.app_context().push()
 bcrypt = Bcrypt(app)
-CORS(app, origins=["https://risethrivepitch.com"], supports_credentials=True)
+CORS(app)
 
 
 DATABASE_HOST = os.getenv('DATABASE_HOST')
 if not DATABASE_HOST:
-  raise EnvironmentError('Unable to Find DATABASE_HOST Variable.')
+    raise EnvironmentError('Unable to Find DATABASE_HOST Variable.')
 
 DATABASE_PORT = os.getenv('DATABASE_PORT')
 if not DATABASE_PORT:
-  raise EnvironmentError('Unable to Find DATABASE_NAME Variable.')
+    raise EnvironmentError('Unable to Find DATABASE_NAME Variable.')
 
 DATABASE_ID = os.getenv('DATABASE_ID')
 if not DATABASE_ID:
-  raise EnvironmentError('Unable to Find DATABASE_ID Variable.')
+    raise EnvironmentError('Unable to Find DATABASE_ID Variable.')
 
 DATABASE_USER = os.getenv('DATABASE_USER')
 if not DATABASE_USER:
-  raise EnvironmentError('Unable to Find DATABASE_USER Variable.')
+    raise EnvironmentError('Unable to Find DATABASE_USER Variable.')
 
 DATABASE_PASSWORD = os.getenv('DATABASE_PASSWORD')
 if not DATABASE_PASSWORD:
-  raise EnvironmentError('Unable to Find DATABASE_PASSWORD Variable.')
+    raise EnvironmentError('Unable to Find DATABASE_PASSWORD Variable.')
 
 app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_ID}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 init_db(app, db)
 
+
 def create_all():
-  db.create_all()
-  print('Querying for default user...')
-   
-  user_data = db.session.query(AppUsers).filter(AppUsers.email == 'k.haslem@icloud.com').first()
+    db.create_all()
+    print('Querying for default user...')
 
-  if user_data == None:
-    print('Admin not found! Creating default user...')
+    user_data = db.session.query(AppUsers).filter(AppUsers.email == 'k.haslem@icloud.com').first()
 
-    ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD')
-    if not ADMIN_PASSWORD:
-      raise EnvironmentError('Unable to Find ADMIN_PASSWORD Variable.')
+    if user_data == None:
+        print('Admin not found! Creating default user...')
 
-    hashed_password = bcrypt.generate_password_hash(ADMIN_PASSWORD).decode('utf8')
+        ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD')
+        if not ADMIN_PASSWORD:
+            raise EnvironmentError('Unable to Find ADMIN_PASSWORD Variable.')
 
-    record = AppUsers('Kray', 'Haslem', 'k.haslem@icloud.com', hashed_password, 'super-admin')
+        hashed_password = bcrypt.generate_password_hash(ADMIN_PASSWORD).decode('utf8')
 
-    db.session.add(record)
-    db.session.commit()
+        record = AppUsers('Kray', 'Haslem', 'k.haslem@icloud.com', hashed_password, 'super-admin')
 
-  else:
-    print('Default user found!')
+        db.session.add(record)
+        db.session.commit()
+
+    else:
+        print('Default user found!')
+
 
 app.register_blueprint(routes.auth)
 app.register_blueprint(routes.app_users)
-app.register_blueprint(routes.contestants)
-app.register_blueprint(routes.votes)
 
 if __name__ == '__main__':
-   create_all()
-   app.run()
+    create_all()
+    app.run()
