@@ -19,27 +19,28 @@ bcrypt = Bcrypt(app)
 CORS(app)
 
 
-DATABASE_HOST = os.getenv('DATABASE_HOST')
-if not DATABASE_HOST:
-    raise EnvironmentError('Unable to Find DATABASE_HOST Variable.')
+# DATABASE_HOST = os.getenv('DATABASE_HOST')
+# if not DATABASE_HOST:
+#     raise EnvironmentError('Unable to Find DATABASE_HOST Variable.')
 
-DATABASE_PORT = os.getenv('DATABASE_PORT')
-if not DATABASE_PORT:
-    raise EnvironmentError('Unable to Find DATABASE_NAME Variable.')
+# DATABASE_PORT = os.getenv('DATABASE_PORT')
+# if not DATABASE_PORT:
+#     raise EnvironmentError('Unable to Find DATABASE_NAME Variable.')
 
-DATABASE_ID = os.getenv('DATABASE_ID')
-if not DATABASE_ID:
-    raise EnvironmentError('Unable to Find DATABASE_ID Variable.')
+# DATABASE_ID = os.getenv('DATABASE_ID')
+# if not DATABASE_ID:
+#     raise EnvironmentError('Unable to Find DATABASE_ID Variable.')
 
-DATABASE_USER = os.getenv('DATABASE_USER')
-if not DATABASE_USER:
-    raise EnvironmentError('Unable to Find DATABASE_USER Variable.')
+# DATABASE_USER = os.getenv('DATABASE_USER')
+# if not DATABASE_USER:
+#     raise EnvironmentError('Unable to Find DATABASE_USER Variable.')
 
-DATABASE_PASSWORD = os.getenv('DATABASE_PASSWORD')
-if not DATABASE_PASSWORD:
-    raise EnvironmentError('Unable to Find DATABASE_PASSWORD Variable.')
+# DATABASE_PASSWORD = os.getenv('DATABASE_PASSWORD')
+# if not DATABASE_PASSWORD:
+#     raise EnvironmentError('Unable to Find DATABASE_PASSWORD Variable.')
 
-app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_ID}'
+# app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_ID}'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("APP_DATABASE_URI", f'postgresql://127.0.0.1:5432/apex')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 init_db(app, db)

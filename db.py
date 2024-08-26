@@ -1,12 +1,14 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy, Model
+from flask_sqlalchemy import SQLAlchemy
 from importlib import import_module
 from pathlib import Path
 from typing import List, Type, Any
 
 db = SQLAlchemy()
+Model = db.Model
 
 APP_MODULE = Path(__file__).resolve().parent.parent.name
+
 
 def get_modules(module: str) -> List[str]:
     module_dir = Path(__file__).resolve().parent.parent / module
@@ -15,6 +17,7 @@ def get_modules(module: str) -> List[str]:
         for p in module_dir.glob('**/*.py')
         if p.name != '__init__.py'
     ]
+
 
 def dynamic_loader(module: str, compare: callable) -> List[Type[Model]]:
     items = []
@@ -25,11 +28,13 @@ def dynamic_loader(module: str, compare: callable) -> List[Type[Model]]:
             items += [obj for obj in objs if compare(obj) and obj not in items]
     return items
 
+
 def is_model(item: Any) -> bool:
     return (
         isinstance(item, type) and issubclass(item, Model)
         and not getattr(item, '__ignore__', False)
     )
+
 
 def init_db(app: Flask, db: SQLAlchemy) -> None:
     with app.app_context():
