@@ -1,12 +1,12 @@
-from flask import request, Response, jsonify
-from datetime import datetime, timedelta
-from models.app_users import AppUsers, AppUsersSchema
+from datetime import datetime, timedelta, timezone
+from flask import request, Response, jsonify, make_response
+from models.app_users import AppUsers
 from models.auth_tokens import AuthTokens, auth_token_schema
 from db import db
 from flask_bcrypt import check_password_hash
 
 
-def auth_token_add(req:request) -> Response:
+def auth_token_add(req: request) -> Response:
     if req.content_type == "application/json":
         post_data = req.get_json()
         email = post_data.get("email")
@@ -16,8 +16,8 @@ def auth_token_add(req:request) -> Response:
         if password == None:
             return jsonify("ERROR: Password Missing"), 400
 
-        now_datetime = datetime.utcnow()
-        expiration_datetime = datetime.utcnow() + timedelta(hours=12)
+        now_datetime = datetime.now(timezone.utc)
+        expiration_datetime = now_datetime + timedelta(hours=12)
         user_data = db.session.query(AppUsers).filter(AppUsers.email == email).first()
         if user_data:
             is_password_valid = check_password_hash(user_data.password, password)
@@ -35,11 +35,21 @@ def auth_token_add(req:request) -> Response:
                     db.session.add(auth_data)
                 else:
                     auth_data.expiration = expiration_datetime
-        else: 
+        else:
             return jsonify("Invalid email/password"), 401
 
         db.session.commit()
 
-        return jsonify(auth_token_schema.dump(auth_data))
+        res = make_response(jsonify({"results": auth_token_schema.dump(auth_data)}))
+        res.set_cookie("authToken",
+                       f'{auth_data.auth_token}',
+                       httponly=True,
+                       secure=True,
+                       samesite="None",
+                       expires=expiration_datetime,
+                       max_age=int(timedelta(hours=12).total_seconds())
+                       )
+        return res
+
     else:
         return jsonify("ERROR: Request Must Be Made in JSON Format"), 404
